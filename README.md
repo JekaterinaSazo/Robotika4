@@ -2,7 +2,7 @@
 Žadintuvas (garsas + užuolaidos)
 
 # Demo video:
-
+Bus pridėtas
 
 
 # Problem:
@@ -48,7 +48,7 @@ yra išvedama į lcd ekraną, kontroliavimas vyksta dviejais mygtukais, ekrane d
 
 # Encountered problems and future improvements:
 ## Encountered problems
-- 
+- Servo motoro biblioteka naudoja Timer1 dėl kontroliavimo, kuris naudojamas dėl laiko nustatymo, tai teko naudoti ServoTimer2
+- Naudojama servo biblioteka naudoja Timer2, kurį naudoja ir piezo, tai reikėjo atjungti servo, kai reikėjo groti muziką su piezo
 # Future improvements
 - Galima pakeistį motoriuką i kitą, kad užuolaidos galėtų pilnai prasidaryti.
-- 
